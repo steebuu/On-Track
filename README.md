@@ -22,13 +22,20 @@ Javascript, HTML, CSS, mta API
 
 `graphData.js` will parse data from the api
 
+### Wireframe
+
+![Wireframe](/wireframe.png)
+
+
 ### Implementation Timeline
 
-**Day 1** : Setup all necessary Node modules. Create entry file and skeletons of script files. Be able to get information from the api on the screen. 
+**Day 1** : Setup all necessary Node modules. Create entry file and skeletons of script files. Be able to get information from the api on the screen. Learn how to use D3.
 
-**Day 2** : Figure out how to start visualizing the data with the graph, have some ability to graph the data by end of day.
+**Days 2 & 3** : Figure out how to start visualizing the data with the graph, have some ability to graph the data by end of day.
 
-**Day 3** : Be able to select a line and have delays be shown
+**Day 4** : Be able to select a line and have delays be shown
+
+**Day 5** : Add styling
 
 ### Bonus Features
 
