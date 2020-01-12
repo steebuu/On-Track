@@ -1,3 +1,8 @@
+Table with column headers in rows 3 and 4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"2016 Poverty and Median Household Income Estimates - States and National
+Source:  U.S. Census Bureau, Small Area Income and Poverty Estimates (SAIPE) Program
+Release Date:  November 2017",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Geographic Information,,,All Ages,,,,,,Age 0-17,,,,,,Age 5-17 in Families,,,,,,Median Household Income,,,Age 0-4,,,,,
 State FIPS Code,Postal Code,Name,"Poverty Estimate, All Ages",90% CI Lower Bound,90% CI Upper Bound,"Poverty Percent, All Ages",90% CI Lower Bound,90% CI Upper Bound,"Poverty Estimate, Age 0-17",90% CI Lower Bound,90% CI Upper Bound,"Poverty Percent, Age 0-17",90% CI Lower Bound,90% CI Upper Bound,"Poverty Estimate, Age 5-17 in Families",90% CI Lower Bound,90% CI Upper Bound,"Poverty Percent, Age 5-17 in Families",90% CI Lower Bound,90% CI Upper Bound,Median Household Income,90% CI Lower Bound,90% CI Upper Bound,"Poverty Estimate, Age 0-4",90% CI Lower Bound,90% CI Upper Bound,"Poverty Percent, Age 0-4",90% CI Lower Bound,90% CI Upper Bound
 00,US,United States,"44,268,996","44,022,086","44,515,906",14.0,13.9,14.1,"14,115,713","13,976,345","14,255,081",19.5,19.3,19.7,"9,648,486","9,548,767","9,748,205",18.3,18.1,18.5,"57,617","57,502","57,732","4,156,949","4,108,397","4,205,501",21.3,21.1,21.5
 01,AL,Alabama,"814,197","796,927","831,467",17.2,16.8,17.6,"267,674","258,276","277,072",24.7,23.8,25.6,"185,889","177,569","194,209",23.5,22.4,24.6,"46,309","45,650","46,968","78,675","74,257","83,093",27.4,25.9,28.9
