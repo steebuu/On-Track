@@ -17,12 +17,11 @@ const g = svg.append('g');
 d3.json("https://cdn.jsdelivr.net/npm/us-atlas@3/states-albers-10m.json").then(us => {
     // console.log(us)
     const states = topojson.feature(us, us.objects.states);
-    console.log(states)
     svg.selectAll('path').data(states.features)
         .enter().append('path')
         .attr('d', path)
         .attr('class', 'state')
-        .on('click', d => paintGraph())
+        .on('click', d => parseData(d.id))
         .append('title')
             .text(d => d.properties.name);
 
