@@ -4,9 +4,10 @@ const width = +chart.attr('width');
 const height = +chart.attr('height');
 
 const paintGraph = data => {
+    console.log(data)
     d3.select('.chart').selectAll('g').remove();
-    const xValue = d => d.births;
-    const yValue = d => d.year;
+    const xValue = d => +d['births'];
+    const yValue = d => +d.year;
     const margin = { top: 20, right: 50, bottom: 20, left: 70 };
     const innerWidth = width - margin.left - margin.right;
     const innerHeight = height - margin.top - margin.bottom;
@@ -14,7 +15,7 @@ const paintGraph = data => {
     const xScale = d3.scaleLinear()
         .domain([0, d3.max(data, xValue)])
         .range([0, innerWidth]);
-
+    console.log(d3.max(data, xValue))    
     const yScale = d3.scaleBand()
         .domain(data.map(yValue))
         .range([0, innerHeight])
