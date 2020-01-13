@@ -34,5 +34,5 @@ const paintGraph = data => {
         .attr('height', yScale.bandwidth())
         .attr('class', 'bar')
         .append('title')
-            .text(d => `Births in ${d.year}`);
+            .text(d => `Births in ${d.year}: ${d.births}`);
 }
