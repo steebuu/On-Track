@@ -4,7 +4,7 @@
   box-shadow: 3px 3px 5px 5px $color, 1px 0px 1px $color;
 }
 
-$main-color: green;
+$main-color: transparent;
 $accent-color: darken($main-color, 10%);
 $background-color: lighten($main-color, 40%);
 
@@ -21,18 +21,4 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-// COMPONENTS
-.card {
-  background: white;
-  height: 50vh;
-  width: 50vw;
-  border-radius: 15px;
-  @include basic-box-shadow($accent-color);
-}
-
-// TYPOGRAPHY
-h2 {
-  font-size: 3rem;
 }
