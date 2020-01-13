@@ -2,7 +2,7 @@
 
 .bar{fill:#441944}.bar:hover{fill:#8e488e}f{fill:red}
 
-body{background-color:#4dff4d;color:green;height:97vh;width:100vw}.center{display:flex;align-items:center;justify-content:center}.card{background:white;height:50vh;width:50vw;border-radius:15px;box-shadow:3px 3px 5px 5px #004d00,1px 0px 1px #004d00}h2{font-size:3rem}
+body{background-color:rgba(102,102,102,0);color:rgba(0,0,0,0);height:97vh;width:100vw}.center{display:flex;align-items:center;justify-content:center}
 
 
 /*# sourceMappingURL=main.css.map*/
