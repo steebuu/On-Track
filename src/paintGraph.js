@@ -6,7 +6,7 @@ const height = +chart.attr('height');
 const paintGraph = data => {
     const xValue = d => d.births;
     const yValue = d => d.year;
-    const margin = { top: 20, right: 20, bottom: 20, left: 100 };
+    const margin = { top: 20, right: 50, bottom: 20, left: 70 };
     const innerWidth = width - margin.left - margin.right;
     const innerHeight = height - margin.top - margin.bottom;
 
