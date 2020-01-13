@@ -4,6 +4,7 @@ const width = +chart.attr('width');
 const height = +chart.attr('height');
 
 const paintGraph = data => {
+    d3.select('.chart').selectAll('g').remove();
     const xValue = d => d.births;
     const yValue = d => d.year;
     const margin = { top: 20, right: 50, bottom: 20, left: 70 };
