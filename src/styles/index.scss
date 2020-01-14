@@ -11,8 +11,6 @@ $background-color: lighten($main-color, 40%);
 // LAYOUT
 
 body {
-  background-color: $background-color;
-  color: $main-color;
   height: 97vh;
   width: 100vw;
 }
